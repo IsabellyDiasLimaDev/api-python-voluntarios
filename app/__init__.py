@@ -14,5 +14,5 @@ from .controllers import volunteers_controller, socialactions_controller
 
 api.add_resource(volunteers_controller.Voluntary, '/voluntario/<string:name>/')
 api.add_resource(volunteers_controller.AllVolunteers, '/voluntarios/')
-api.add_resource(socialactions_controller.SocialAction, '/acaosocial/<string:name>')
+api.add_resource(socialactions_controller.SocialAction, '/acaosocial/<string:name>/')
 api.add_resource(socialactions_controller.AllActions,'/acoessociais/')

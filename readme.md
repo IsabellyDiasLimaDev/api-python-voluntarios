@@ -49,17 +49,25 @@
       }
       ```
     * Como cadastrar uma ação social: A api só aceita este formato JSON:
-      ```
-      {
-      "nome": "nome da ação social",
-      "instituição": "instituição que está fazendo esta ação",
-      "bairro": "bairro onde será a ação",
-      "cidade": "cidade onde será a ação",
-      "endereço": "endereço onde será a ação",
-      "descrição": "Uma pequena descrição de no máximo 100 caracteres da ação"
-      }
-      ```
+        ```
+        {
+            "nome": "nome da ação social",
+            "instituição": "instituição que está fazendo esta ação",
+            "bairro": "bairro onde será a ação",
+            "cidade": "cidade onde será a ação",
+            "endereço": "endereço onde será a ação",
+            "descrição": "Uma pequena descrição de no máximo 100 caracteres da ação"
+        }
+        ```
     * Rota para cadastro/consulta do voluntário - "/voluntarios/"
     * Rota para cadastro/consulta da ação social - "/acoessociais/"
-    
+    * Rota para consulta/alteracao/remoção de um voluntário - "/voluntario/nome cadastrado do voluntario/"
+    * Rota para consulta/alteracao/remoção de uma ação social - "/acaosocial/nome cadastrado da ação social/"
+    * Para alterar um voluntário/ação social deve-se devolver um JSON com o atributo a ser alterado. Ex:
+        ```
+        {
+            "nome":"nome que vai substituir"
+        }
+        ```
+
     
