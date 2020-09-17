@@ -40,25 +40,25 @@ Já para as ações:
     - Utilização
     * Para testar a aplicação primeiro deve-se cadastrar um voluntário e uma ação social para testar os demais métodos
     * Como cadastrar um voluntário: A api só aceita este formato JSON:
-    ```
-    {
-        "nome":"nome do voluntário",
-        "sobrenome":"sobrenome do voluntário",
-        "bairro":"bairro onde reside o voluntário",
-        "cidade":"cidade onde reside o voluntário"
-    }
-    ```
+      ```
+      {
+         "nome":"nome do voluntário",
+         "sobrenome":"sobrenome do voluntário",
+         "bairro":"bairro onde reside o voluntário",
+         "cidade":"cidade onde reside o voluntário"
+      }
+      ```
     * Como cadastrar uma ação social: A api só aceita este formato JSON:
-    ```
-    {
-    "nome": "nome da ação social",
-    "instituição": "instituição que está fazendo esta ação",
-    "bairro": "bairro onde será a ação",
-    "cidade": "cidade onde será a ação",
-    "endereço": "endereço onde será a ação",
-    "descrição": "Uma pequena descrição de no máximo 100 caracteres da ação"
-    }
-    ```
+      ```
+      {
+      "nome": "nome da ação social",
+      "instituição": "instituição que está fazendo esta ação",
+      "bairro": "bairro onde será a ação",
+      "cidade": "cidade onde será a ação",
+      "endereço": "endereço onde será a ação",
+      "descrição": "Uma pequena descrição de no máximo 100 caracteres da ação"
+      }
+      ```
     * Rota para cadastro/consulta do voluntário - "/voluntarios/"
     * Rota para cadastro/consulta da ação social - "/acoessociais/"
     
