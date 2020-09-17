@@ -18,7 +18,7 @@
     * Cidade
 
 
-Já para as ações:
+- Já para as ações:
 
 
     * Nome da ação
@@ -61,4 +61,5 @@ Já para as ações:
     ```
     * Rota para cadastro/consulta do voluntário - "/voluntarios/"
     * Rota para cadastro/consulta da ação social - "/acoessociais/"
+    
     
